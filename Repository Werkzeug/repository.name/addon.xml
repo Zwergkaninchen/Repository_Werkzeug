@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.name" name="name" version="4.0.2" provider-name="name">
+	<extension point="xbmc.addon.repository" name="name">
+		<info compressed="true">https://raw.githubusercontent.com/name/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/name/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/name/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Repository</summary>
+		<summary lang="de">Offizielles Repository</summary>
+		<description lang="en">Name Repository</description>
+		<description lang="de">Name Repository Add-on.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
